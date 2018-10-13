@@ -14,6 +14,9 @@ apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
 
+//Spring Boot Overriding
+ext['hibernate.version'] = '5.2.11.Final' //추가
+
 group = 'com.mango'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = 1.8
